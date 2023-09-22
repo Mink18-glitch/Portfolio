@@ -3,13 +3,19 @@ body {
     font-family: sans-serif;
     margin: 0;
   }
-  #header {
-    background-color: #000;
-    color: #fff;
-    padding: 30px;
-    height: 50px;
-  }  
+#header {
+  background-color: #000;
+  color: #fff;
+  height: 100px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
 
+}  
+.resize {
+  width: 100px;
+}
 #header h1, #firstSection h1 {
   margin: 0;
 }
@@ -20,6 +26,7 @@ main {
 #firstSection{
   height: 850px;
   background-color: midnightblue;
+  color:white;
   display:flex;
   text-align: center;
   justify-content: center;
@@ -28,9 +35,22 @@ main {
 #firstSection h1{
   text-align: center;
 }
+#firstSection h1, #secondSection h1 {
+  margin: 0;
+}
+#secondSection{
+    height: 500px;
+    background-color: olivedrab;
+}
+#secondSection h1, #thirdSection h1 {
+  margin: 0;
+}
+#thirdSection{
+  height:700px;
+  background-color:midnightblue;
+}
 footer {
   background-color: #ccc;
   color: #000;
   padding: 20px;
 }
-  
