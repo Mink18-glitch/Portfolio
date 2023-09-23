@@ -24,8 +24,8 @@ main {
   padding: 0px;
 }
 #firstSection{
-  height: 850px;
-  background-color: midnightblue;
+  height:1080px;
+  background-image: url("https://cdn-sharing.adobecc.com/composite/component/id/urn:aaid:sc:US:80bbe325-6edb-4dfe-83c3-acdcaf92913d?component_id=2077d58d-1d2e-49f6-af6a-5bfd1c176c70&revision=d70be8be-9db9-4e85-ac43-236a97441168&api_key=projectx_webapp&access_token=1695529919_urn%3Aaaid%3Asc%3AUS%3A80bbe325-6edb-4dfe-83c3-acdcaf92913d%3Bpublic_6cbca3e434e792bebe087e8045ee2d73dbedc782");
   color:white;
   display:flex;
   text-align: center;
