@@ -53,10 +53,19 @@ main {
 #secondSection h1, #thirdSection h1 {
   margin: 0;
 }
-#thirdSection{
+#thirdSection {
   height:700px;
   background-color:indigo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+#div{
+  display:flex;
+  justify-content: center;
+}
+
 footer {
   background-color: #ccc;
   color: #000;
